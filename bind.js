@@ -15,3 +15,4 @@ var pokemonName = function(snack, hobby) {
 var logPokemon = pokemonName.bind(pokemon); // creates new object and binds pokemon. 'this' of pokemon === pokemon now
 
 logPokemon('sushi', 'algorithms'); // Pika Chu  loves sushi and algorithms
+

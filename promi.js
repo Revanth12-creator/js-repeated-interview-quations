@@ -10,7 +10,7 @@ let promises = new Promise((x,y) => {
     }
 });
 
-promises.then(data => console.log(data))
+promises.then(data => console.log("data",data))
 .catch(err => console.log(err))
 
 console.log(promises);                     //Promise { <pending> }
