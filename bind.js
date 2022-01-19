@@ -7,6 +7,7 @@ var pokemon = {
     }
 };
 
+
 var pokemonName = function(snack, hobby) {
     console.log(this.getPokeName() + 'I choose you!');
     console.log(this.getPokeName() + ' loves ' + snack + ' and ' + hobby);

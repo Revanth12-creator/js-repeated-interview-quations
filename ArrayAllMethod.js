@@ -129,16 +129,14 @@
 
 
 // // // entries/values() method=====================================================================================
-// // //used to converting obj in Arrrayt see below 
-// // let data1={
-// //     num1:1,
-// //     num2:2,
-// //     num3:3,
-// //     num4:4,
-// //     num5:5,
-// // };
-// // let convertIntoArray1=Object.values(data1);
-// // console.log(convertIntoArray1)
+//used to converting obj in Arrrayt see below 
+// let data1={
+//     name:"revanth",
+//     age:24,
+   
+// };
+// let convertIntoArray1=Object.values(data1);
+// console.log(convertIntoArray1)
 
 
 
@@ -146,20 +144,16 @@
 // // // //14.reduce()=====================================================================================
 // // //used to reducing the multliple vaues into single value see below
 // // // example1 
-// // let data={
-// //     num1:1,
-// //     num2:2,
-// //     num3:3,
-// //     num4:4,
-// //     num5:5,
-// // };
-// // //first convert into arry the easy to reduce bcs comparision going easy
-// // let convertIntoArray=Object.values(data);
-// // // console.log(convertIntoArray)
-// // let Data1=convertIntoArray.reduce((x,y) => {
-// //     return x+y;
-// // });
-// // console.log(Data1);//o/p 1,2,3,4,5 become as a single value 15
+let data={
+    num1:1,
+    num2:2,
+    num3:3,
+    num4:4,
+    num5:5,
+};
+let convertIntoArray=Object.values(data).reduce((x,y) =>  x+ y);
+
+console.log(convertIntoArray);//o/p 1,2,3,4,5 become as a single value 15
 
 // // // example2 with help of function
 // // let nubers3=[1,2,10]; 
@@ -359,11 +353,11 @@
 // console.log(a)
 
 //interview quation
-var fruits="Banana Orange Apple Mango";
-var reve=[...fruits].reverse().join('')
+// var fruits="Banana Orange Apple Mango";
+// var reve=[...fruits].reverse().join('')
 
-console.log(reve);
-var fruits="Banana Orange Apple Mango";
-var reve=fruits.split(' ');
+// console.log(reve);
+// var fruits="Banana Orange Apple Mango";
+// var reve=fruits.split(' ');
 
-console.log(reve.reverse());
+// console.log(reve.reverse());
